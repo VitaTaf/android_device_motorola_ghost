@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ghost/proprietary/app/WallpaperPickerGooglePrebuilt.apk:system/app/WallpaperPickerGooglePrebuilt/WallpaperPickerGooglePrebuilt.apk \
     vendor/motorola/ghost/proprietary/app/LatinImeGoogle.apk:system/app/LatinImeGoogle/LatinImeGoogle.apk \
     vendor/motorola/ghost/proprietary/app/WebViewGoogle.apk:system/app/WebViewGoogle/WebViewGoogle.apk \
-    vendor/motorola/ghost/proprietary/app/PrebuiltBugle.apk:system/app/PrebuiltBugle/PrebuiltBugle.apk \
     vendor/motorola/ghost/proprietary/priv-app/NexusLauncherPrebuilt.apk:system/priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk \
     vendor/motorola/ghost/proprietary/priv-app/GoogleDialer.apk:system/priv-app/GoogleDialer/GoogleDialer.apk \
     vendor/motorola/ghost/proprietary/app/Nfc.apk:system/app/Nfc/Nfc.apk \
