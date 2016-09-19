@@ -58,5 +58,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wlan/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x1.bin:system/etc/firmware/wlan/prima/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x1.bin \
     $(LOCAL_PATH)/wlan/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x2.bin:system/etc/firmware/wlan/prima/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x2.bin
 
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/hosts:system/etc/hosts \
+    vendor/motorola/ghost/proprietary/app/WallpaperPickerGooglePrebuilt.apk:system/app/WallpaperPickerGooglePrebuilt/WallpaperPickerGooglePrebuilt.apk \
+    vendor/motorola/ghost/proprietary/app/LatinImeGoogle.apk:system/app/LatinImeGoogle/LatinImeGoogle.apk \
+    vendor/motorola/ghost/proprietary/app/WebViewGoogle.apk:system/app/WebViewGoogle/WebViewGoogle.apk \
+    vendor/motorola/ghost/proprietary/app/PrebuiltBugle.apk:system/app/PrebuiltBugle/PrebuiltBugle.apk \
+    vendor/motorola/ghost/proprietary/priv-app/NexusLauncherPrebuilt.apk:system/priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk \
+    vendor/motorola/ghost/proprietary/priv-app/GoogleDialer.apk:system/priv-app/GoogleDialer/GoogleDialer.apk \
+    vendor/motorola/ghost/proprietary/app/Nfc.apk:system/app/Nfc/Nfc.apk \
+    vendor/motorola/ghost/proprietary/lib/libnfc_jni.so:system/lib/libnfc_jni.so \
+    vendor/motorola/ghost/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
+    vendor/motorola/ghost/proprietary/lib/libnfc.so:system/lib/libnfc.so \
+    
+
+
 # Inherit from msm8960dt-common
 $(call inherit-product, device/motorola/msm8960dt-common/msm8960dt-common.mk)
