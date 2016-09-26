@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wlan/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x2.bin:system/etc/firmware/wlan/prima/cal_files/WCNSS_qcom_wlan_nv_regulatory_0x2.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/hosts:system/etc/hosts \
+    vendor/motorola/ghost/proprietary/etc/hosts:system/etc/hosts \
     vendor/motorola/ghost/proprietary/app/WallpaperPickerGooglePrebuilt.apk:system/app/WallpaperPickerGooglePrebuilt/WallpaperPickerGooglePrebuilt.apk \
     vendor/motorola/ghost/proprietary/app/LatinImeGoogle.apk:system/app/LatinImeGoogle/LatinImeGoogle.apk \
     vendor/motorola/ghost/proprietary/app/WebViewGoogle.apk:system/app/WebViewGoogle/WebViewGoogle.apk \
@@ -69,7 +69,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ghost/proprietary/lib/libnfc_jni.so:system/lib/libnfc_jni.so \
     vendor/motorola/ghost/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
     vendor/motorola/ghost/proprietary/lib/libnfc.so:system/lib/libnfc.so \
-    
+    vendor/motorola/ghost/proprietary/media/bootanimation.zip:system/media/bootanimation.zip
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.config.ringtone=Titania.ogg \
+    ro.config.notification_sound=Tethys.ogg \
+    ro.config.alarm_alert=Oxygen.ogg
 
 
 # Inherit from msm8960dt-common
